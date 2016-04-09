@@ -351,9 +351,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         let movementAmount = arc4random() % UInt32(self.frame.size.height / 2)
         let pipeOffset = CGFloat(movementAmount) - self.frame.size.height / 4
-        coin.size.width = 40
-        coin.size.height = 40
-        coin.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: coin.size.width - 20 , height: coin.size.height - 20))
+        coin.size.width = 80
+        coin.size.height = 80
+        coin.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: coin.size.width - 40 , height: coin.size.height - 40))
         coin.physicsBody?.restitution = 0
         coin.position = CGPoint(x: self.size.width + 50, y: 0 + cointexture.size().height + 90 + pipeOffset )
         let movecoin = SKAction.moveByX(-self.frame.size.width * 2, y: 0, duration: 5)

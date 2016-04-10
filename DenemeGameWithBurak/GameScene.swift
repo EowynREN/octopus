@@ -179,7 +179,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         redcointexture = SKTexture(imageNamed: "coin.jpg")
         coinherotex1 = SKTexture(imageNamed: "Coin0.png")
         
-        redcoinherotex1 = SKTexture(imageNamed: "Coin0.png")
+        redcoinherotex1 = SKTexture(imageNamed: "ruby_blue.png")
         
         
         // shields and shield item texture
@@ -215,8 +215,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         // Mines Textures
         
-        MineTexture1 = SKTexture(imageNamed: "metalball1.png")
-        MineTexture2 = SKTexture(imageNamed: "metalball2.png")
+        MineTexture1 = SKTexture(imageNamed: "shell1.png")
+        MineTexture2 = SKTexture(imageNamed: "shell2.png")
         
 
         CubeTexture1 = SKTexture(imageNamed: "ice_cube1.png")
@@ -441,7 +441,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         redCoin = SKSpriteNode(texture:redcointexture)
         
-        CoinTexturesArray = [SKTexture(imageNamed: "Coin0"),SKTexture(imageNamed: "Coin1"),SKTexture(imageNamed: "Coin2")]
+        CoinTexturesArray = [SKTexture(imageNamed: "ruby_blue"),SKTexture(imageNamed: "ruby_blue"),SKTexture(imageNamed: "ruby_blue")]
         
         let coinAnimation1 = SKAction.animateWithTextures(CoinTexturesArray, timePerFrame: 0.1)
         
@@ -450,8 +450,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         let movementAmount = arc4random() % UInt32(self.frame.size.height / 2)
         let pipeOffset = CGFloat(movementAmount) - self.frame.size.height / 4
-        redCoin.size.width = 40
-        redCoin.size.height = 40
+        redCoin.size.width = 20
+        redCoin.size.height = 30
         redCoin.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: coin.size.width - 10 , height: coin.size.height - 10))
         redCoin.physicsBody?.restitution = 0
         redCoin.position = CGPoint(x: self.size.width + 50, y: 0 + cointexture.size().height + 90 + pipeOffset )
@@ -463,8 +463,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         redCoin.runAction(dusmanMovebgForever)
         animations.scaleZdirection(redCoin)
-        animations.redColorAnimation(redCoin, animDuration: 0.5)
-        redCoin.setScale(1.3)
+//        animations.redColorAnimation(redCoin, animDuration: 0.5)
+        redCoin.setScale(1.1)
         redCoin.physicsBody?.dynamic = false
         redCoin.physicsBody?.categoryBitMask = redCoinGroup
         redCoin.zPosition = 1

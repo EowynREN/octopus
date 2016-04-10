@@ -1224,7 +1224,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         Electriclighting.physicsBody?.restitution = 0
         Electriclighting.setScale(scaleValue)
         
-        ElectricTexturesArray = [SKTexture(imageNamed: "Electriclighting0"),SKTexture(imageNamed: "Electriclighting1"),SKTexture(imageNamed: "Electriclighting2"),SKTexture(imageNamed: "Electriclighting3")]
+        ElectricTexturesArray = [SKTexture(imageNamed: "swirl1"),SKTexture(imageNamed: "swirl2"),SKTexture(imageNamed: "swirl3"),SKTexture(imageNamed: "swirl4")]
         
         let electricAnimation = SKAction.animateWithTextures(ElectricTexturesArray, timePerFrame: 0.1)
         

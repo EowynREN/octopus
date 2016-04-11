@@ -853,33 +853,33 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         switch gSceneDifficult.rawValue
         {
-            // easy mode
+        // easy mode
         case 0:
             
             TimerAddMine = NSTimer.scheduledTimerWithTimeInterval(4.245, target: self, selector: Selector("AddMine"), userInfo: nil, repeats: true)
             TimerAddCube = NSTimer.scheduledTimerWithTimeInterval(6.245, target: self, selector: Selector("AddCube"), userInfo: nil, repeats: true)
-            TimerAddDown = NSTimer.scheduledTimerWithTimeInterval(4.5, target: self, selector: Selector("AddDown"), userInfo: nil, repeats: true)
-            TimerAddPlat = NSTimer.scheduledTimerWithTimeInterval(4.5, target: self, selector: Selector("AddPlat"), userInfo: nil, repeats: true)
+            TimerAddDown = NSTimer.scheduledTimerWithTimeInterval(8.5, target: self, selector: Selector("AddDown"), userInfo: nil, repeats: true)
+            TimerAddPlat = NSTimer.scheduledTimerWithTimeInterval(2.5, target: self, selector: Selector("AddPlat"), userInfo: nil, repeats: true)
             
             TimerAddElectriclighting = NSTimer.scheduledTimerWithTimeInterval(5.234, target: self, selector: Selector("AddElectriclighting"), userInfo: nil, repeats: true)
             TimerRoketAdd = NSTimer.scheduledTimerWithTimeInterval(7.743, target: self, selector: Selector("RoketAdd"), userInfo: nil, repeats: true)
             
             
-            TimerAddShieldItem = NSTimer.scheduledTimerWithTimeInterval(20.246, target: self, selector: Selector("addShieldItem"), userInfo: nil, repeats: true)
+            TimerAddShieldItem = NSTimer.scheduledTimerWithTimeInterval(2.246, target: self, selector: Selector("addShieldItem"), userInfo: nil, repeats: true)
             
-            // medium mode
+        // medium mode
         case 1:
             
             TimerAddMine = NSTimer.scheduledTimerWithTimeInterval(5.245, target: self, selector: Selector("AddMine"), userInfo: nil, repeats: true)
             TimerAddCube = NSTimer.scheduledTimerWithTimeInterval(5.45, target: self, selector: Selector("AddCube"), userInfo: nil, repeats: true)
             TimerAddDown = NSTimer.scheduledTimerWithTimeInterval(3.65, target: self, selector: Selector("AddDown"), userInfo: nil, repeats: true)
-            TimerAddPlat = NSTimer.scheduledTimerWithTimeInterval(3.65, target: self, selector: Selector("AddPlat"), userInfo: nil, repeats: true)
+            TimerAddPlat = NSTimer.scheduledTimerWithTimeInterval(2.55, target: self, selector: Selector("AddPlat"), userInfo: nil, repeats: true)
             TimerAddElectriclighting = NSTimer.scheduledTimerWithTimeInterval(3.234, target: self, selector: Selector("AddElectriclighting"), userInfo: nil, repeats: true)
             TimerRoketAdd = NSTimer.scheduledTimerWithTimeInterval(11.743, target: self, selector: Selector("RoketAdd"), userInfo: nil, repeats: true)
             
             TimerAddShieldItem = NSTimer.scheduledTimerWithTimeInterval(30.246, target: self, selector: Selector("addShieldItem"), userInfo: nil, repeats: true)
             
-            // hard mode
+        // hard mode
         case 2:
             
             
@@ -887,13 +887,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             TimerAddMine = NSTimer.scheduledTimerWithTimeInterval(2.945, target: self, selector: Selector("AddMine"), userInfo: nil, repeats: true)
             TimerAddCube = NSTimer.scheduledTimerWithTimeInterval(5.945, target: self, selector: Selector("AddCube"), userInfo: nil, repeats: true)
             TimerAddDown = NSTimer.scheduledTimerWithTimeInterval(3.45, target: self, selector: Selector("AddDown"), userInfo: nil, repeats: true)
-            TimerAddPlat = NSTimer.scheduledTimerWithTimeInterval(3.45, target: self, selector: Selector("AddPlat"), userInfo: nil, repeats: true)
+            TimerAddPlat = NSTimer.scheduledTimerWithTimeInterval(2.45, target: self, selector: Selector("AddPlat"), userInfo: nil, repeats: true)
             TimerAddElectriclighting = NSTimer.scheduledTimerWithTimeInterval(3.034, target: self, selector: Selector("AddElectriclighting"), userInfo: nil, repeats: true)
             TimerRoketAdd = NSTimer.scheduledTimerWithTimeInterval(10.543, target: self, selector: Selector("RoketAdd"), userInfo: nil, repeats: true)
             
             TimerAddShieldItem = NSTimer.scheduledTimerWithTimeInterval(40.246, target: self, selector: Selector("addShieldItem"), userInfo: nil, repeats: true)
             
-            // medium for quick play mode
+        // medium for quick play mode
         default:
             TimerAddMine = NSTimer.scheduledTimerWithTimeInterval(4.245, target: self, selector: Selector("AddMine"), userInfo: nil, repeats: true)
             TimerAddCube = NSTimer.scheduledTimerWithTimeInterval(5.245, target: self, selector: Selector("AddCube"), userInfo: nil, repeats: true)
@@ -971,7 +971,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
         Cube.size.width = 60
         Cube.size.height = 140
-        Cube.position = CGPoint(x: self.frame.size.width + 150, y: 750)
+        Cube.position = CGPoint(x: self.frame.size.width + 150, y: 610)
         let moveMayinX = SKAction.moveToX ( -self.frame.size.width / 4 , duration: 4)
         Cube.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: Cube.size.width - 30 , height: Cube.size.height - 20))
         
@@ -1529,8 +1529,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     
                     if iAP_Enabled == true
                     {
-                        self.GameviewcontrollerBridge.RemoveAdsBtn.hidden = false
-                        self.GameviewcontrollerBridge.RestoreiAP.hidden = false
+                        self.GameviewcontrollerBridge.RemoveAdsBtn.hidden = true
+                        self.GameviewcontrollerBridge.RestoreiAP.hidden = true
                     }
                     else
                     {
@@ -1694,8 +1694,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                         self.scene?.paused = true
                         if iAP_Enabled == true
                         {
-                            self.GameviewcontrollerBridge.RemoveAdsBtn.hidden = false
-                            self.GameviewcontrollerBridge.RestoreiAP.hidden = false
+                            self.GameviewcontrollerBridge.RemoveAdsBtn.hidden = true
+                            self.GameviewcontrollerBridge.RestoreiAP.hidden = true
                         }
                         else
                         {
@@ -2245,7 +2245,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         /* Called when a touch begins */
         
-       playerEmitter1.hidden = false
+       playerEmitter1.hidden = true
         
         if gameover == 0 {
             
@@ -2278,8 +2278,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     override func didFinishUpdate() {
         playerEmitter1.position = hero.position - CGPoint(x: 30, y: 5)
-        shield.position = hero.position + CGPoint(x: 40, y: 5)
-        }
+        shield.position = hero.position + CGPoint(x: 2, y: 2)
+    }
     
   
     

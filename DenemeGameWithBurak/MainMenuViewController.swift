@@ -36,7 +36,7 @@ class MainMenuViewController: UIViewController,GKGameCenterControllerDelegate {
       
         if Model.sharedInstance.sound == true {
             
-            SKTAudio.sharedInstance().playBackgroundMusic("JetPackBackgroundMusic.wav")
+            SKTAudio.sharedInstance().playBackgroundMusic("backgroundmusic1.mp3")
             
         }
         

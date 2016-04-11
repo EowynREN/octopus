@@ -19,8 +19,8 @@
 		0560E66C1ADC4DF3003852FE /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560E66B1ADC4DF3003852FE /* DifficultyViewController.swift */; };
 		05883E1F1AAF32960048F0D3 /* StageEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = 05883E1D1AAF32960048F0D3 /* StageEmitter.sks */; };
 		05883E201AAF32960048F0D3 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 05883E1E1AAF32960048F0D3 /* spark.png */; };
-		05A2CAC81C10D8F500134EEB /* RocketCreate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 05A2CAC61C10D8F500134EEB /* RocketCreate.wav */; };
-		05A2CACB1C10D91A00134EEB /* RocketExplosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 05A2CACA1C10D91A00134EEB /* RocketExplosion.wav */; };
+		05A2CAC81C10D8F500134EEB /* RocketCreate1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 05A2CAC61C10D8F500134EEB /* RocketCreate1.wav */; };
+		05A2CACB1C10D91A00134EEB /* RocketExplosion1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 05A2CACA1C10D91A00134EEB /* RocketExplosion1.wav */; };
 		05A2CAD01C10FD8B00134EEB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B37EFB21C101A6600B130EC /* StoreKit.framework */; };
 		05A2CAD31C11094600134EEB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A2CAD21C11094600134EEB /* AdSupport.framework */; };
 		05A2CAD51C11095B00134EEB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A2CAD41C11095B00134EEB /* AVFoundation.framework */; };
@@ -58,13 +58,14 @@
 		0DC86F221CBB8F210034D5F2 /* reloadButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC86F211CBB8F210034D5F2 /* reloadButton1.png */; };
 		0DC86F251CBB91E80034D5F2 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC86F231CBB91E80034D5F2 /* playButton.png */; };
 		0DC86F261CBB91E80034D5F2 /* reloadButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC86F241CBB91E80034D5F2 /* reloadButton.png */; };
+		0DC9843A1CBB94F000BC6444 /* backgroundmusic1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC984391CBB94F000BC6444 /* backgroundmusic1.mp3 */; };
 		6B10A7711AB35493002F73C2 /* seskapat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B10A76C1AB35493002F73C2 /* seskapat.png */; };
-		6B2C263A1AC5E6BD00262F09 /* electricCreate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26301AC5E6BD00262F09 /* electricCreate.wav */; };
-		6B2C263E1AC5E6BD00262F09 /* gameoverSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26351AC5E6BD00262F09 /* gameoverSound.mp3 */; };
+		6B2C263A1AC5E6BD00262F09 /* electricCreate1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26301AC5E6BD00262F09 /* electricCreate1.wav */; };
+		6B2C263E1AC5E6BD00262F09 /* gameoverSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26351AC5E6BD00262F09 /* gameoverSound1.mp3 */; };
 		6B2C263F1AC5E6BD00262F09 /* JetPackBackgroundMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26361AC5E6BD00262F09 /* JetPackBackgroundMusic.wav */; };
-		6B2C26401AC5E6BD00262F09 /* shieldOff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26381AC5E6BD00262F09 /* shieldOff.mp3 */; };
-		6B2C26411AC5E6BD00262F09 /* shieldOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26391AC5E6BD00262F09 /* shieldOn.mp3 */; };
-		6B2C26431AC5EC6100262F09 /* electricDead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26421AC5EC6100262F09 /* electricDead.mp3 */; };
+		6B2C26401AC5E6BD00262F09 /* shieldOff1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26381AC5E6BD00262F09 /* shieldOff1.mp3 */; };
+		6B2C26411AC5E6BD00262F09 /* shieldOn1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26391AC5E6BD00262F09 /* shieldOn1.mp3 */; };
+		6B2C26431AC5EC6100262F09 /* electricDead1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26421AC5EC6100262F09 /* electricDead1.mp3 */; };
 		6B2D2B971AC36AD000B2DFDE /* playButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D2B951AC36AD000B2DFDE /* playButton1.png */; };
 		6B2D2B981AC36AD000B2DFDE /* pauseButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D2B961AC36AD000B2DFDE /* pauseButton1.png */; };
 		6B2D2B9D1AC37A9E00B2DFDE /* gameCenterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D2B991AC37A9E00B2DFDE /* gameCenterButton.png */; };
@@ -150,8 +151,8 @@
 		0560E66B1ADC4DF3003852FE /* DifficultyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
 		05883E1D1AAF32960048F0D3 /* StageEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StageEmitter.sks; sourceTree = "<group>"; };
 		05883E1E1AAF32960048F0D3 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
-		05A2CAC61C10D8F500134EEB /* RocketCreate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RocketCreate.wav; sourceTree = "<group>"; };
-		05A2CACA1C10D91A00134EEB /* RocketExplosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RocketExplosion.wav; sourceTree = "<group>"; };
+		05A2CAC61C10D8F500134EEB /* RocketCreate1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RocketCreate1.wav; sourceTree = "<group>"; };
+		05A2CACA1C10D91A00134EEB /* RocketExplosion1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RocketExplosion1.wav; sourceTree = "<group>"; };
 		05A2CAD21C11094600134EEB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		05A2CAD41C11095B00134EEB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		05A2CAD61C11096900134EEB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -188,13 +189,14 @@
 		0DC86F211CBB8F210034D5F2 /* reloadButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reloadButton1.png; sourceTree = "<group>"; };
 		0DC86F231CBB91E80034D5F2 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
 		0DC86F241CBB91E80034D5F2 /* reloadButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reloadButton.png; sourceTree = "<group>"; };
+		0DC984391CBB94F000BC6444 /* backgroundmusic1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundmusic1.mp3; sourceTree = "<group>"; };
 		6B10A76C1AB35493002F73C2 /* seskapat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seskapat.png; sourceTree = "<group>"; };
-		6B2C26301AC5E6BD00262F09 /* electricCreate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electricCreate.wav; sourceTree = "<group>"; };
-		6B2C26351AC5E6BD00262F09 /* gameoverSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameoverSound.mp3; sourceTree = "<group>"; };
+		6B2C26301AC5E6BD00262F09 /* electricCreate1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electricCreate1.wav; sourceTree = "<group>"; };
+		6B2C26351AC5E6BD00262F09 /* gameoverSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameoverSound1.mp3; sourceTree = "<group>"; };
 		6B2C26361AC5E6BD00262F09 /* JetPackBackgroundMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = JetPackBackgroundMusic.wav; sourceTree = "<group>"; };
-		6B2C26381AC5E6BD00262F09 /* shieldOff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shieldOff.mp3; sourceTree = "<group>"; };
-		6B2C26391AC5E6BD00262F09 /* shieldOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shieldOn.mp3; sourceTree = "<group>"; };
-		6B2C26421AC5EC6100262F09 /* electricDead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = electricDead.mp3; sourceTree = "<group>"; };
+		6B2C26381AC5E6BD00262F09 /* shieldOff1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shieldOff1.mp3; sourceTree = "<group>"; };
+		6B2C26391AC5E6BD00262F09 /* shieldOn1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shieldOn1.mp3; sourceTree = "<group>"; };
+		6B2C26421AC5EC6100262F09 /* electricDead1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = electricDead1.mp3; sourceTree = "<group>"; };
 		6B2D2B951AC36AD000B2DFDE /* playButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton1.png; sourceTree = "<group>"; };
 		6B2D2B961AC36AD000B2DFDE /* pauseButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton1.png; sourceTree = "<group>"; };
 		6B2D2B991AC37A9E00B2DFDE /* gameCenterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameCenterButton.png; sourceTree = "<group>"; };
@@ -421,7 +423,8 @@
 			isa = PBXGroup;
 			children = (
 				6B2C26361AC5E6BD00262F09 /* JetPackBackgroundMusic.wav */,
-				6B2C26351AC5E6BD00262F09 /* gameoverSound.mp3 */,
+				6B2C26351AC5E6BD00262F09 /* gameoverSound1.mp3 */,
+				0DC984391CBB94F000BC6444 /* backgroundmusic1.mp3 */,
 				05D7DE641A98237B00C9A051 /* PickCoin.mp3 */,
 				05B54D121A8B768700829B6D /* button_press.wav */,
 			);
@@ -469,8 +472,8 @@
 		6B2C262F1AC5E6BD00262F09 /* Electric */ = {
 			isa = PBXGroup;
 			children = (
-				6B2C26421AC5EC6100262F09 /* electricDead.mp3 */,
-				6B2C26301AC5E6BD00262F09 /* electricCreate.wav */,
+				6B2C26421AC5EC6100262F09 /* electricDead1.mp3 */,
+				6B2C26301AC5E6BD00262F09 /* electricCreate1.wav */,
 			);
 			path = Electric;
 			sourceTree = "<group>";
@@ -478,8 +481,8 @@
 		6B2C26321AC5E6BD00262F09 /* Rocket */ = {
 			isa = PBXGroup;
 			children = (
-				05A2CACA1C10D91A00134EEB /* RocketExplosion.wav */,
-				05A2CAC61C10D8F500134EEB /* RocketCreate.wav */,
+				05A2CACA1C10D91A00134EEB /* RocketExplosion1.wav */,
+				05A2CAC61C10D8F500134EEB /* RocketCreate1.wav */,
 			);
 			name = Rocket;
 			path = Fuze;
@@ -488,8 +491,8 @@
 		6B2C26371AC5E6BD00262F09 /* Shield */ = {
 			isa = PBXGroup;
 			children = (
-				6B2C26381AC5E6BD00262F09 /* shieldOff.mp3 */,
-				6B2C26391AC5E6BD00262F09 /* shieldOn.mp3 */,
+				6B2C26381AC5E6BD00262F09 /* shieldOff1.mp3 */,
+				6B2C26391AC5E6BD00262F09 /* shieldOn1.mp3 */,
 			);
 			path = Shield;
 			sourceTree = "<group>";
@@ -660,7 +663,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B7DC5271AB809B1007E9EC7 /* Icon.png in Resources */,
-				05A2CAC81C10D8F500134EEB /* RocketCreate.wav in Resources */,
+				05A2CAC81C10D8F500134EEB /* RocketCreate1.wav in Resources */,
 				6BF60C041ABB4F3D00A0402D /* BGPoint5500.png in Resources */,
 				6B7DC5281AB809B1007E9EC7 /* Icon@2x.png in Resources */,
 				6B7DC4F81AB7F962007E9EC7 /* randomButton.png in Resources */,
@@ -682,20 +685,20 @@
 				0DC86F261CBB91E80034D5F2 /* reloadButton.png in Resources */,
 				6B7DC5261AB809B1007E9EC7 /* Icon-Spotlight-40@3x.png in Resources */,
 				6B7DC5201AB809B1007E9EC7 /* Icon-Small-50@2x.png in Resources */,
-				6B2C263A1AC5E6BD00262F09 /* electricCreate.wav in Resources */,
+				6B2C263A1AC5E6BD00262F09 /* electricCreate1.wav in Resources */,
 				6B7DC5221AB809B1007E9EC7 /* Icon-Small@2x.png in Resources */,
 				6BF60C061ABB4F3D00A0402D /* BGPointLock 500.png in Resources */,
 				6BF60C101ABB4F4200A0402D /* UnlockBG1.png in Resources */,
 				AB2071801CBB55590069255A /* mediumBtnDikdortgen.png in Resources */,
-				6B2C26411AC5E6BD00262F09 /* shieldOn.mp3 in Resources */,
-				05A2CACB1C10D91A00134EEB /* RocketExplosion.wav in Resources */,
+				6B2C26411AC5E6BD00262F09 /* shieldOn1.mp3 in Resources */,
+				05A2CACB1C10D91A00134EEB /* RocketExplosion1.wav in Resources */,
 				AB2071821CBB60ED0069255A /* UnlockBg4.png in Resources */,
 				0DC86F221CBB8F210034D5F2 /* reloadButton1.png in Resources */,
 				6B7DC5291AB809B1007E9EC7 /* iTunesArtwork in Resources */,
 				6B7DC5231AB809B1007E9EC7 /* Icon-Small@3x.png in Resources */,
 				6B7DC5001AB80629007E9EC7 /* infoButton.png in Resources */,
 				6B7DC4FA1AB7FFE2007E9EC7 /* moreGamesButton.png in Resources */,
-				6B2C263E1AC5E6BD00262F09 /* gameoverSound.mp3 in Resources */,
+				6B2C263E1AC5E6BD00262F09 /* gameoverSound1.mp3 in Resources */,
 				6B2D2BA01AC37A9E00B2DFDE /* moreGameButton.png in Resources */,
 				6B4A566A1AC38EF100276216 /* maviBGBlur1.png in Resources */,
 				6BBA8F941AB8821600DBAEA0 /* engine.sks in Resources */,
@@ -704,7 +707,7 @@
 				6B7DC52A1AB809B1007E9EC7 /* iTunesArtwork@2x in Resources */,
 				6B7DC5191AB809B1007E9EC7 /* Icon-60@3x.png in Resources */,
 				0DC86F251CBB91E80034D5F2 /* playButton.png in Resources */,
-				6B2C26431AC5EC6100262F09 /* electricDead.mp3 in Resources */,
+				6B2C26431AC5EC6100262F09 /* electricDead1.mp3 in Resources */,
 				05EA05091AE701F800825B4A /* Icon-76@2x.png in Resources */,
 				6B2D2B9F1AC37A9E00B2DFDE /* quickGameButton.png in Resources */,
 				05DED47A1C0FEC2B0074FBE5 /* Launch@3x.png in Resources */,
@@ -732,7 +735,7 @@
 				6B7DC51F1AB809B1007E9EC7 /* Icon-Small-50.png in Resources */,
 				0DC86F1A1CBB8E270034D5F2 /* ArkaPlanBlur.png in Resources */,
 				6B854E451AC4F7E200D3F440 /* Share.png in Resources */,
-				6B2C26401AC5E6BD00262F09 /* shieldOff.mp3 in Resources */,
+				6B2C26401AC5E6BD00262F09 /* shieldOff1.mp3 in Resources */,
 				6BF60C071ABB4F3D00A0402D /* BGPointLock4500.png in Resources */,
 				05B6E2681C19EC9B00E42C12 /* RemoveAds.png in Resources */,
 				6BF60C151ABB4F4200A0402D /* UnlockBG7.png in Resources */,
@@ -745,6 +748,7 @@
 				6BF60C111ABB4F4200A0402D /* UnlockBG2.png in Resources */,
 				6B7DC5241AB809B1007E9EC7 /* Icon-Spotlight-40.png in Resources */,
 				6B7DC51B1AB809B1007E9EC7 /* Icon-72@2x.png in Resources */,
+				0DC9843A1CBB94F000BC6444 /* backgroundmusic1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

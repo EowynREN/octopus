@@ -211,7 +211,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         // Electriclight Textures
         
-        Electriclighting1 = SKTexture(imageNamed: "Electriclighting0.png")
+        Electriclighting1 = SKTexture(imageNamed: "swirl0.png")
         
         // Mines Textures
         
@@ -969,11 +969,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             Cube = SKSpriteNode(texture: CubeTexture2)
             
         }
-        Cube.size.width = 100
-        Cube.size.height = 200
-        Cube.position = CGPoint(x: self.frame.size.width + 150, y: 570)
+        Cube.size.width = 60
+        Cube.size.height = 140
+        Cube.position = CGPoint(x: self.frame.size.width + 150, y: 750)
         let moveMayinX = SKAction.moveToX ( -self.frame.size.width / 4 , duration: 4)
-        Cube.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: Cube.size.width - 40 , height: Cube.size.height - 30))
+        Cube.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: Cube.size.width - 30 , height: Cube.size.height - 20))
         
         Cube.physicsBody?.categoryBitMask = objectgroup
         
@@ -1009,11 +1009,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             Down = SKSpriteNode(texture: DownTexture2)
             
         }
-        Down.size.width = 100
-        Down.size.height = 200
-        Down.position = CGPoint(x: self.frame.size.width + 150, y: 870)
+        Down.size.width = 60
+        Down.size.height = 140
+        Down.position = CGPoint(x: self.frame.size.width + 150, y: 750)
         let moveMayinX = SKAction.moveToX ( -self.frame.size.width / 4 , duration: 4)
-        Down.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: Down.size.width - 40 , height: Down.size.height - 30))
+        Down.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: Down.size.width - 30 , height: Down.size.height - 20))
         
         Down.physicsBody?.categoryBitMask = objectgroup
         
@@ -1207,15 +1207,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         Electriclighting = SKSpriteNode(texture: Electriclighting1)
         
-        var scaleValue:CGFloat = 0.3
-        let movementAmount = arc4random() % UInt32(self.frame.size.height / 5)
-        let scaleRandom = arc4random() % UInt32(5)
+        var scaleValue:CGFloat = 0.4
+        let movementAmount = arc4random() % UInt32(self.frame.size.height / 3)
+        let scaleRandom = arc4random() % UInt32(3)
         
-        if scaleRandom == 1 {scaleValue = 0.9}
-        else if scaleRandom == 2 {scaleValue = 0.6}
-        else if scaleRandom == 3 {scaleValue = 0.8}
-        else if scaleRandom == 4 {scaleValue = 0.7}
-        else if scaleRandom == 0 {scaleValue = 1.0}
+        if scaleRandom == 1 {scaleValue = 0.5}
+        else if scaleRandom == 2 {scaleValue = 0.7}
         
         
         
@@ -1224,7 +1221,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         Electriclighting.physicsBody?.restitution = 0
         Electriclighting.setScale(scaleValue)
         
-        ElectricTexturesArray = [SKTexture(imageNamed: "swirl1"),SKTexture(imageNamed: "swirl2"),SKTexture(imageNamed: "swirl3"),SKTexture(imageNamed: "swirl4")]
+        ElectricTexturesArray = [SKTexture(imageNamed: "swirl0"),SKTexture(imageNamed: "swirl1"),SKTexture(imageNamed: "swirl2"),SKTexture(imageNamed: "swirl3"),SKTexture(imageNamed: "swirl4"),SKTexture(imageNamed: "swirl5"),SKTexture(imageNamed: "swirl6"),SKTexture(imageNamed: "swirl7")]
         
         let electricAnimation = SKAction.animateWithTextures(ElectricTexturesArray, timePerFrame: 0.1)
         

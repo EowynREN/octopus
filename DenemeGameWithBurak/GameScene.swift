@@ -196,7 +196,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         runherotex1 = SKTexture(imageNamed: "run0.png")
         
         
-        deadherotex1 = SKTexture(imageNamed: "Dead0.png")
+        deadherotex1 = SKTexture(imageNamed: "dead0.png")
         
         
         // Rocket Textures
@@ -1497,7 +1497,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 TimerRedCoinAdd.invalidate()
                 TimerAddShieldItem.invalidate()
                 
-                HeroDeathTexturesArray = [SKTexture(imageNamed: "Dead0"),SKTexture(imageNamed: "Dead1"),SKTexture(imageNamed: "Dead2"),SKTexture(imageNamed: "Dead3"),SKTexture(imageNamed: "Dead4"),SKTexture(imageNamed: "Dead5"),SKTexture(imageNamed: "Dead6")]
+                HeroDeathTexturesArray = [SKTexture(imageNamed: "dead0"),SKTexture(imageNamed: "dead1"),SKTexture(imageNamed: "dead2"),SKTexture(imageNamed: "dead3")]
                 
                 let herodDeathAnimation = SKAction.animateWithTextures(HeroDeathTexturesArray, timePerFrame: 0.2)
                 
@@ -1664,7 +1664,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     TimerRedCoinAdd.invalidate()
                     TimerAddShieldItem.invalidate()// redCoin
                     
-                    HeroDeathTexturesArray = [SKTexture(imageNamed: "Dead0"),SKTexture(imageNamed: "Dead1"),SKTexture(imageNamed: "Dead2"),SKTexture(imageNamed: "Dead3"),SKTexture(imageNamed: "Dead4"),SKTexture(imageNamed: "Dead5"),SKTexture(imageNamed: "Dead6")]
+                    HeroDeathTexturesArray = [SKTexture(imageNamed: "dead0"),SKTexture(imageNamed: "dead1"),SKTexture(imageNamed: "dead2"),SKTexture(imageNamed: "dead3")]
                     
                     let herodDeathAnimation = SKAction.animateWithTextures(HeroDeathTexturesArray, timePerFrame: 0.5)
                     

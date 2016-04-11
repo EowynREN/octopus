@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainMenuBlur" translatesAutoresizingMaskIntoConstraints="NO" id="o64-CJ-2fO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maviBGBlur.png" translatesAutoresizingMaskIntoConstraints="NO" id="o64-CJ-2fO">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="400" id="1XV-UQ-dSp"/>
@@ -2682,7 +2682,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="qKu-Cs-nbX" secondAttribute="height" multiplier="81:26" id="Kgb-h0-XuF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
@@ -3323,14 +3323,14 @@
         <image name="gameCenterButton.png" width="198" height="58"/>
         <image name="icon-info.png" width="256" height="256"/>
         <image name="infoPage" width="444" height="250"/>
-        <image name="mainMenuBlur" width="667" height="375"/>
         <image name="mainmenuButton.png" width="75" height="75"/>
+        <image name="maviBGBlur.png" width="2048" height="1536"/>
         <image name="mediumBtnDikdortgen.png" width="400" height="165"/>
         <image name="moreGameButton.png" width="198" height="58"/>
-        <image name="pauseButton.png" width="82" height="81"/>
+        <image name="pauseButton.png" width="40" height="40"/>
         <image name="playButton.png" width="81" height="80"/>
         <image name="playGameButton.png" width="198" height="58"/>
-        <image name="reloadButton.png" width="75" height="75"/>
+        <image name="reloadButton.png" width="80" height="80"/>
         <image name="sesac.png" width="71" height="75"/>
         <image name="seskapat.png" width="65" height="75"/>
         <image name="shareIcon.png" width="150" height="150"/>

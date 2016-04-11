@@ -42,7 +42,6 @@
 		05B6E26B1C19F85B00E42C12 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B6E26A1C19F85B00E42C12 /* GoogleMobileAds.framework */; };
 		05B9A2231ADC6C3F00ACD6E3 /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9A2221ADC6C3F00ACD6E3 /* InfoPageViewController.swift */; };
 		05BD42CA1C179FCA00A82858 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD42C91C179FCA00A82858 /* SwiftSpinner.swift */; };
-		05BD42CF1C17ABEA00A82858 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 05BD42CC1C17ABEA00A82858 /* back.png */; };
 		05C328381AC2D61300BF29F9 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C328371AC2D61300BF29F9 /* GameKit.framework */; };
 		05D125D21C17CAF3009C4550 /* ConfigFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D125D11C17CAF3009C4550 /* ConfigFile.swift */; };
 		05D125D41C17D221009C4550 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D125D31C17D221009C4550 /* SweetAlert.swift */; };
@@ -59,7 +58,6 @@
 		6B2C26411AC5E6BD00262F09 /* shieldOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26391AC5E6BD00262F09 /* shieldOn.mp3 */; };
 		6B2C26431AC5EC6100262F09 /* electricDead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C26421AC5EC6100262F09 /* electricDead.mp3 */; };
 		6B2D2B971AC36AD000B2DFDE /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D2B951AC36AD000B2DFDE /* playButton.png */; };
-		6B2D2B981AC36AD000B2DFDE /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D2B961AC36AD000B2DFDE /* pauseButton.png */; };
 		6B2D2B9D1AC37A9E00B2DFDE /* gameCenterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D2B991AC37A9E00B2DFDE /* gameCenterButton.png */; };
 		6B2D2B9E1AC37A9E00B2DFDE /* playGameButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D2B9A1AC37A9E00B2DFDE /* playGameButton.png */; };
 		6B2D2B9F1AC37A9E00B2DFDE /* quickGameButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D2B9B1AC37A9E00B2DFDE /* quickGameButton.png */; };
@@ -127,6 +125,9 @@
 		AB2071841CBB7AC00069255A /* reloadButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB2071831CBB7AC00069255A /* reloadButton.png */; };
 		AB2071861CBB7CCD0069255A /* ArkaPlanBlur.png in Resources */ = {isa = PBXBuildFile; fileRef = AB2071851CBB7CCD0069255A /* ArkaPlanBlur.png */; };
 		AB2071881CBB7EFC0069255A /* maviBGBlur.png in Resources */ = {isa = PBXBuildFile; fileRef = AB2071871CBB7EFC0069255A /* maviBGBlur.png */; };
+		AB20718C1CBB815A0069255A /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB20718B1CBB815A0069255A /* pauseButton.png */; };
+		AB2071941CBB86160069255A /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = AB2071931CBB86160069255A /* back.png */; };
+		AB2071961CBB8A250069255A /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB2071951CBB8A250069255A /* pauseButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,7 +167,6 @@
 		05B6E26A1C19F85B00E42C12 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		05B9A2221ADC6C3F00ACD6E3 /* InfoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
 		05BD42C91C179FCA00A82858 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
-		05BD42CC1C17ABEA00A82858 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		05C328371AC2D61300BF29F9 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		05D125D11C17CAF3009C4550 /* ConfigFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigFile.swift; sourceTree = "<group>"; };
 		05D125D31C17D221009C4550 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
@@ -183,7 +183,6 @@
 		6B2C26391AC5E6BD00262F09 /* shieldOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shieldOn.mp3; sourceTree = "<group>"; };
 		6B2C26421AC5EC6100262F09 /* electricDead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = electricDead.mp3; sourceTree = "<group>"; };
 		6B2D2B951AC36AD000B2DFDE /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
-		6B2D2B961AC36AD000B2DFDE /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
 		6B2D2B991AC37A9E00B2DFDE /* gameCenterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameCenterButton.png; sourceTree = "<group>"; };
 		6B2D2B9A1AC37A9E00B2DFDE /* playGameButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playGameButton.png; sourceTree = "<group>"; };
 		6B2D2B9B1AC37A9E00B2DFDE /* quickGameButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quickGameButton.png; sourceTree = "<group>"; };
@@ -252,6 +251,9 @@
 		AB2071831CBB7AC00069255A /* reloadButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reloadButton.png; sourceTree = "<group>"; };
 		AB2071851CBB7CCD0069255A /* ArkaPlanBlur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArkaPlanBlur.png; sourceTree = "<group>"; };
 		AB2071871CBB7EFC0069255A /* maviBGBlur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maviBGBlur.png; sourceTree = "<group>"; };
+		AB20718B1CBB815A0069255A /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		AB2071931CBB86160069255A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		AB2071951CBB8A250069255A /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,17 +419,17 @@
 		6B10A7691AB35483002F73C2 /* MenuButtons */ = {
 			isa = PBXGroup;
 			children = (
-				05BD42CC1C17ABEA00A82858 /* back.png */,
 				AB2071831CBB7AC00069255A /* reloadButton.png */,
 				6B2D2BA11AC3804100B2DFDE /* buttonBG.png */,
+				AB2071931CBB86160069255A /* back.png */,
 				6B2D2B991AC37A9E00B2DFDE /* gameCenterButton.png */,
 				6B2D2B9A1AC37A9E00B2DFDE /* playGameButton.png */,
 				6B2D2B9B1AC37A9E00B2DFDE /* quickGameButton.png */,
 				6B2D2B9C1AC37A9E00B2DFDE /* moreGameButton.png */,
 				6B2D2B951AC36AD000B2DFDE /* playButton.png */,
-				6B2D2B961AC36AD000B2DFDE /* pauseButton.png */,
 				6B7DC4FF1AB80629007E9EC7 /* infoButton.png */,
 				6B7DC4FB1AB80294007E9EC7 /* LeaderBoard.png */,
+				AB2071951CBB8A250069255A /* pauseButton.png */,
 				6B7DC4F91AB7FFE2007E9EC7 /* moreGamesButton.png */,
 				6B7DC4F71AB7F962007E9EC7 /* randomButton.png */,
 				6B7DC4F51AB7F7AF007E9EC7 /* PlayButtonGreen.png */,
@@ -544,6 +546,7 @@
 		6BF60BFB1ABB4F3D00A0402D /* LockBgTextures */ = {
 			isa = PBXGroup;
 			children = (
+				AB20718B1CBB815A0069255A /* pauseButton.png */,
 				6BF60BFC1ABB4F3D00A0402D /* BGPoint2500.png */,
 				6BF60BFD1ABB4F3D00A0402D /* BGPoint3500.png */,
 				6BF60BFE1ABB4F3D00A0402D /* BGPoint5500.png */,
@@ -659,7 +662,6 @@
 				05883E1F1AAF32960048F0D3 /* StageEmitter.sks in Resources */,
 				05883E201AAF32960048F0D3 /* spark.png in Resources */,
 				6B7DC52B1AB809B1007E9EC7 /* JetPackMarketIcon.png in Resources */,
-				05BD42CF1C17ABEA00A82858 /* back.png in Resources */,
 				05B6446D1C11425500F4DCD2 /* IAP.png in Resources */,
 				6B7DC5261AB809B1007E9EC7 /* Icon-Spotlight-40@3x.png in Resources */,
 				6B7DC5201AB809B1007E9EC7 /* Icon-Small-50@2x.png in Resources */,
@@ -694,16 +696,17 @@
 				6B7DC4F61AB7F7AF007E9EC7 /* PlayButtonGreen.png in Resources */,
 				6B2D2BA21AC3804100B2DFDE /* buttonBG.png in Resources */,
 				AB2071841CBB7AC00069255A /* reloadButton.png in Resources */,
-				6B2D2B981AC36AD000B2DFDE /* pauseButton.png in Resources */,
 				6B7DC4FC1AB80294007E9EC7 /* LeaderBoard.png in Resources */,
 				6B2D2B9E1AC37A9E00B2DFDE /* playGameButton.png in Resources */,
 				6BF60C021ABB4F3D00A0402D /* BGPoint2500.png in Resources */,
 				055DC7241A85007D0049CE4F /* Images.xcassets in Resources */,
+				AB2071941CBB86160069255A /* back.png in Resources */,
 				6BF60C121ABB4F4200A0402D /* UnlockBG3.png in Resources */,
 				6B7DC51A1AB809B1007E9EC7 /* Icon-72.png in Resources */,
 				AB2071881CBB7EFC0069255A /* maviBGBlur.png in Resources */,
 				6BF60C051ABB4F3D00A0402D /* BGPointLock 1500.png in Resources */,
 				6BF60C141ABB4F4200A0402D /* UnlockBG6.png in Resources */,
+				AB2071961CBB8A250069255A /* pauseButton.png in Resources */,
 				6B2D2B9D1AC37A9E00B2DFDE /* gameCenterButton.png in Resources */,
 				6B2D2B971AC36AD000B2DFDE /* playButton.png in Resources */,
 				6B7DC51F1AB809B1007E9EC7 /* Icon-Small-50.png in Resources */,
@@ -718,6 +721,7 @@
 				6BE568FD1AE3E46500D1901A /* RateIT.png in Resources */,
 				05B6E2691C19EC9B00E42C12 /* RestorePurchase.png in Resources */,
 				055DC7221A85007D0049CE4F /* Main.storyboard in Resources */,
+				AB20718C1CBB815A0069255A /* pauseButton.png in Resources */,
 				6BF60C111ABB4F4200A0402D /* UnlockBG2.png in Resources */,
 				6B7DC5241AB809B1007E9EC7 /* Icon-Spotlight-40.png in Resources */,
 				6B7DC51B1AB809B1007E9EC7 /* Icon-72@2x.png in Resources */,

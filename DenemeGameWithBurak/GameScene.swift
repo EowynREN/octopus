@@ -1039,8 +1039,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         
         Plat = SKSpriteNode(texture: PlatTexture1)
-        let minesRandom = arc4random() % UInt32(2)
-        if minesRandom == 0
+        let platsRandom = arc4random() % UInt32(2)
+        if platsRandom == 0
         {
             Plat = SKSpriteNode(texture: PlatTexture1)
         }else
@@ -1048,30 +1048,45 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             Plat = SKSpriteNode(texture: PlatTexture2)
             
         }
-        Plat.size.width = 200
-        Plat.size.height = 40
-        Plat.position = CGPoint(x: self.frame.size.width + 0, y: 270)
-        let moveMayinX = SKAction.moveToX ( -self.frame.size.width / 2 , duration: 4)
+        Plat.size.width = 300
+        Plat.size.height = 50
+        
+        let plat_random = arc4random_uniform(3)
+        
+        //        var low_height = 800
+        
+        if plat_random == 0{
+            Plat.position = CGPoint(x: self.frame.size.width   , y: self.frame.size.height - 300)
+        }else if plat_random == 1{
+            Plat.position = CGPoint(x: self.frame.size.width   , y: self.frame.size.height - 500)
+        }else if plat_random == 2{
+            Plat.position = CGPoint(x: self.frame.size.width   , y: self.frame.size.height - 350)
+        }else if plat_random == 3{
+            Plat.position = CGPoint(x: self.frame.size.width   , y: self.frame.size.height - 450)
+        }
+        
+        
+        //        Plat.zPosition = 1.1
+        
+        
+        let moveMayinX = SKAction.moveToX ( -self.frame.size.width / 4 , duration: 4)
         Plat.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: Plat.size.width - 40 , height: Plat.size.height - 30))
         
-        Plat.physicsBody?.categoryBitMask = objectgroup
+        //        Plat.physicsBody?.categoryBitMask = objectgroup
         
         Plat.physicsBody?.dynamic = false
-        Plat.physicsBody?.affectedByGravity = false
-        Plat.physicsBody?.allowsRotation = false
-        
-        
         
         let removeAction = SKAction.removeFromParent()
         let dusmanMovebgForever = SKAction.repeatActionForever(SKAction.sequence([moveMayinX,removeAction]))
         
         
         
-        //        animations.rotateAnimationsToAngle(Cube, animDuration: 0.2)
-        Cube.runAction(dusmanMovebgForever)
-        Cube.zPosition = 1
+        //        animations.rotateAnimationsToAngle(Plat, animDuration: 0.2)
+        Plat.runAction(dusmanMovebgForever)
+        Plat.zPosition = 1
         
         movingObject.addChild(Plat)
+        
     }
     
 

@@ -1,10 +1,4 @@
-//
-//  ConfigFile.swift
-//  JetPackChallenge
-//
-//  Created by sabri emre esen on 09/12/15.
-//  Copyright © 2015 emre esen. All rights reserved.
-//
+
 
 import Foundation
 

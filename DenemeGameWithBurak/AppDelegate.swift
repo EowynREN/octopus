@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  DenemeGameWithBurak
-//
-//  Created by emre esen on 06/02/15.
-//  Copyright (c) 2015 emre esen. All rights reserved.
-//
+
 
 import UIKit
 import Parse

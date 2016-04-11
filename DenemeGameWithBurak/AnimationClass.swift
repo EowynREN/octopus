@@ -154,7 +154,7 @@ class AnimationClass {
         
         sprite.runAction(SKAction.repeatActionForever(
             SKAction.sequence([
-                SKAction.scaleBy(1.4, duration: 1),
+                SKAction.scaleBy(1.2, duration: 1),
               //  SKAction.scaleBy(2.0, duration: 0.5), // now effectively at 4x
                 SKAction.scaleTo(1.0, duration: 1.0),
                 ])

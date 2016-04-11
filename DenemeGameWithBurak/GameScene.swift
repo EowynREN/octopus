@@ -1,10 +1,3 @@
-//
-//  GameScene.swift
-//  DenemeGameWithBurak
-//
-//  Created by emre esen on 06/02/15.
-//  Copyright (c) 2015 emre esen. All rights reserved.
-//
 
 import SpriteKit
 import UIKit
@@ -201,7 +194,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         // Rocket Textures
         
-        rocketherotex1 = SKTexture(imageNamed: "Rocket0.png")
+        rocketherotex1 = SKTexture(imageNamed: "RocketExplode0.png")
         
         
         
@@ -846,7 +839,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         TimerRedCoinAdd.invalidate()
         TimerAddShieldItem.invalidate()
         
-        TimerAddCoin = NSTimer.scheduledTimerWithTimeInterval(0.52, target: self, selector: Selector("addcoin"), userInfo: nil, repeats: true)
+        TimerAddCoin = NSTimer.scheduledTimerWithTimeInterval(0.32, target: self, selector: Selector("addcoin"), userInfo: nil, repeats: true)
         TimerRedCoinAdd = NSTimer.scheduledTimerWithTimeInterval(8.246, target: self, selector: Selector("redCoinAdd"), userInfo: nil, repeats: true)
         
         
@@ -1048,8 +1041,25 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             Plat = SKSpriteNode(texture: PlatTexture2)
             
         }
+        
+        
         Plat.size.width = 300
         Plat.size.height = 50
+
+        
+//        let length_random = arc4random_uniform(2)
+//        
+//        if length_random == 0{
+//            Plat.size.width = 300
+//            Plat.size.height = 50
+//        }else if length_random == 1{
+//            Plat.size.width = 350
+//            Plat.size.width = 50
+//        }else if length_random == 1 {
+//            Plat.size.width = 320
+//            Plat.size.height = 50
+//        }
+        
         
         let plat_random = arc4random_uniform(3)
         
@@ -1096,9 +1106,22 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
     {
         
+        let fish_random = arc4random_uniform(3)
+
+        
         rocket = SKSpriteNode(texture: rocketherotex1)
-        rocket.size.width = 180
-        rocket.size.height = 55
+        
+        if fish_random == 0{
+            rocket.size.width = 180
+            rocket.size.height = 55
+        }else if fish_random == 1{
+            rocket.size.width = 100
+            rocket.size.height = 30
+        }else{
+            rocket.size.width = 120
+            rocket.size.height = 40
+        }
+        
         
         if Model.sharedInstance.sound == true
             
@@ -1136,7 +1159,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         let movefuze = SKAction.moveToX( -self.frame.size.width / 4 , duration: 4)
         
-        RocketTexturesArray = [SKTexture(imageNamed: "Rocket0"),SKTexture(imageNamed: "Rocket1"),SKTexture(imageNamed: "Rocket2"),SKTexture(imageNamed: "Rocket3"),SKTexture(imageNamed: "Rocket4"),SKTexture(imageNamed: "Rocket5")]
+        RocketTexturesArray = [SKTexture(imageNamed: "RocketExplode0")]
         
         let RocketAnimation = SKAction.animateWithTextures(RocketTexturesArray, timePerFrame: 0.1)
         
@@ -1558,7 +1581,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     
                     self.GameviewcontrollerBridge.refreshGameBtn.hidden = false
                     self.GameviewcontrollerBridge.returnmainmenubutton.hidden = false
-                    self.GameviewcontrollerBridge.pauseButton.hidden = true
+                    self.GameviewcontrollerBridge.pauseButton.hidden = false
                     self.GameviewcontrollerBridge.resumeButton.hidden = true
                     self.stageLabel.hidden = true
                   
@@ -1645,7 +1668,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     Model.sharedInstance.totalscore = Model.sharedInstance.totalscore + Model.sharedInstance.score
                     
            
-                    RocketExplodeTexturesArray = [SKTexture(imageNamed: "RocketExplode0"),SKTexture(imageNamed: "RocketExplode1"),SKTexture(imageNamed: "RocketExplode2"),SKTexture(imageNamed: "RocketExplode3"),SKTexture(imageNamed: "RocketExplode4"),SKTexture(imageNamed: "RocketExplode5"),SKTexture(imageNamed: "RocketExplode6")]
+                    RocketExplodeTexturesArray = [SKTexture(imageNamed: "RocketExplode0"),SKTexture(imageNamed: "RocketExplode1"),SKTexture(imageNamed: "RocketExplode2"),SKTexture(imageNamed: "RocketExplode3"),SKTexture(imageNamed: "RocketExplode4")]
                     
                     let RocketExplodeAnimation = SKAction.animateWithTextures(RocketExplodeTexturesArray, timePerFrame: 0.1)
                     
@@ -2280,9 +2303,4 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         playerEmitter1.position = hero.position - CGPoint(x: 30, y: 5)
         shield.position = hero.position + CGPoint(x: 2, y: 2)
     }
-    
-  
-    
-    
-   
 }

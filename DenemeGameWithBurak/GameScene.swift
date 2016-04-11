@@ -2280,9 +2280,4 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         playerEmitter1.position = hero.position - CGPoint(x: 30, y: 5)
         shield.position = hero.position + CGPoint(x: 2, y: 2)
     }
-    
-  
-    
-    
-   
 }

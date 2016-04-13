@@ -47,7 +47,7 @@ class MainMenuViewController: UIViewController,GKGameCenterControllerDelegate {
 
        
             
-         if  Model.sharedInstance.totalscore > 500
+         if  Model.sharedInstance.totalscore > 50
             
         {
             
@@ -60,30 +60,7 @@ class MainMenuViewController: UIViewController,GKGameCenterControllerDelegate {
             
             QuickPlayRandom = 3
         }
-         if  Model.sharedInstance.totalscore > 2500
-            
-        {
-            
-            QuickPlayRandom = 4
-        }
-          if  Model.sharedInstance.totalscore > 3500
-            
-        {
-            
-            QuickPlayRandom = 5
-        }
-         if  Model.sharedInstance.totalscore > 4500
-            
-        {
-            
-           QuickPlayRandom = 6
-        }
-         if  Model.sharedInstance.totalscore > 5500
-            
-        {
-            
-            QuickPlayRandom = 7
-        }
+        
         
         
         

@@ -213,10 +213,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
 
         CubeTexture1 = SKTexture(imageNamed: "ice_cube1.png")
-        CubeTexture2 = SKTexture(imageNamed: "ice_cube1.png")
+        CubeTexture2 = SKTexture(imageNamed: "ice_cube2.png")
         
         DownTexture1 = SKTexture(imageNamed: "ice_cube1.png")
-        DownTexture2 = SKTexture(imageNamed: "ice_cube1.png")
+        DownTexture2 = SKTexture(imageNamed: "ice_cube2.png")
         
         PlatTexture1 = SKTexture(imageNamed: "BubbleChain_test.png")
         PlatTexture2 = SKTexture(imageNamed: "BubbleChain_test.png")
@@ -380,7 +380,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         coin.physicsBody?.dynamic = false
         coin.physicsBody?.categoryBitMask = coingroup
-        coin.zPosition = 1
+        coin.zPosition = 1.5
+        
         coinobject.addChild(coin)
         
         

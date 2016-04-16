@@ -649,16 +649,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             bgTexture = SKTexture(imageNamed: "bg02.png")
         case 2:
            bgTexture = SKTexture(imageNamed: "bg03.png")
-        case 3:
-            bgTexture = SKTexture(imageNamed: "bg04.png")
-        case 4:
-           bgTexture = SKTexture(imageNamed: "bg05.png")
-        case 5:
-            bgTexture = SKTexture(imageNamed: "bg06.png")
-        case 6:
-           bgTexture = SKTexture(imageNamed: "bg07.png")
         default:
-            bgTexture = SKTexture(imageNamed: "bg07.png")
+            bgTexture = SKTexture(imageNamed: "bg03.png")
         }
         
         let movebg = SKAction.moveByX(-bgTexture.size().width, y: 0, duration: 3)

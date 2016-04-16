@@ -19,10 +19,7 @@ class SelectBgViewController: UIViewController {
     @IBOutlet weak var bg1: UIButton!
     @IBOutlet weak var bg2: UIButton!
     @IBOutlet weak var bg3: UIButton!
-    @IBOutlet weak var bg4: UIButton!
-    @IBOutlet weak var bg5: UIButton!
-    @IBOutlet weak var bg6: UIButton!
-    @IBOutlet weak var bg7: UIButton!
+
     
     
     var overlayView: UIView!
@@ -67,36 +64,7 @@ class SelectBgViewController: UIViewController {
             let image = UIImage(named: "UnlockBG2.png") as UIImage!
             bg3.setImage(image, forState: .Normal)
         }
-        
-        if Model.sharedInstance.totalscore > level4UnlockValue
-        {
-            
-            let image = UIImage(named: "UnlockBG3.png") as UIImage!
-            bg4.setImage(image, forState: .Normal)
-        }
-        
-        if Model.sharedInstance.totalscore > level5UnlockValue
-        {
-            
-            let image = UIImage(named: "UnlockBG8.png") as UIImage!
-            bg5.setImage(image, forState: .Normal)
-        }
-        
-        if Model.sharedInstance.totalscore > level6UnlockValue
-        {
-            
-            let image = UIImage(named: "UnlockBG1.png") as UIImage!
-            bg7.setImage(image, forState: .Normal)
-            
-            
-        }
-        
-        if Model.sharedInstance.totalscore > level7UnlockValue
-        {
-            let image = UIImage(named: "UnlockBG7.png") as UIImage!
-            bg6.setImage(image, forState: .Normal)
-            
-        }
+
         
         
     }
@@ -168,30 +136,7 @@ class SelectBgViewController: UIViewController {
                     
                     navigationController?.pushViewController(gameviewController1, animated: true)
                 }
-                else if gameviewController1.gVBgChoosing.rawValue == 3 && Model.sharedInstance.totalscore > level4UnlockValue
-                    
-                {
-                    
-                    navigationController?.pushViewController(gameviewController1, animated: true)
-                }
-                else  if gameviewController1.gVBgChoosing.rawValue == 4 && Model.sharedInstance.totalscore > level5UnlockValue
-                    
-                {
-                    
-                    navigationController?.pushViewController(gameviewController1, animated: true)
-                }
-                else if gameviewController1.gVBgChoosing.rawValue == 6 && Model.sharedInstance.totalscore > level6UnlockValue
-                    
-                {
-                    
-                    navigationController?.pushViewController(gameviewController1, animated: true)
-                }
-                else if gameviewController1.gVBgChoosing.rawValue == 5 && Model.sharedInstance.totalscore > level7UnlockValue
-                    
-                {
-                    
-                    navigationController?.pushViewController(gameviewController1, animated: true)
-                }else{
+               else{
                     
                   
                     showAlert()

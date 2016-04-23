@@ -316,13 +316,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         addtaptoplayfunc()
         addstage()
         addscore()
-        GameviewcontrollerBridge.soundOnBtn.hidden = true
+        //GameviewcontrollerBridge.soundOnBtn.hidden = true
         GameviewcontrollerBridge.returnmainmenubutton.hidden = true
         highscoreLabel2.hidden = true
-        GameviewcontrollerBridge.ShareButton.hidden = true
+        //GameviewcontrollerBridge.ShareButton.hidden = true
         GameviewcontrollerBridge.refreshGameBtn.hidden = true
-        self.GameviewcontrollerBridge.RestoreiAP.hidden = true
-        GameviewcontrollerBridge.soundOffBtn.hidden = true
+        //self.GameviewcontrollerBridge.RestoreiAP.hidden = true
+        //GameviewcontrollerBridge.soundOffBtn.hidden = true
         
        
         if labelobject.children.count != 0
@@ -1416,11 +1416,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         scoreLabel.text = "0"
         createplayerEmitter()
         GameviewcontrollerBridge.returnmainmenubutton.hidden = true
-        GameviewcontrollerBridge.soundOnBtn.hidden = true
+        //GameviewcontrollerBridge.soundOnBtn.hidden = true
         GameviewcontrollerBridge.pauseButton.hidden = false
         stageLabel.hidden = false
         highscoreLabel2.hidden = true
-        GameviewcontrollerBridge.ShareButton.hidden = true
+        //GameviewcontrollerBridge.ShareButton.hidden = true
         showhighscore()
         TimerAddCoin.invalidate()
         TimerAddMine.invalidate()
@@ -1545,13 +1545,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     
                     if iAP_Enabled == true
                     {
-                        self.GameviewcontrollerBridge.RemoveAdsBtn.hidden = true
-                        self.GameviewcontrollerBridge.RestoreiAP.hidden = true
+                        //self.GameviewcontrollerBridge.RemoveAdsBtn.hidden = true
+                        //self.GameviewcontrollerBridge.RestoreiAP.hidden = true
                     }
                     else
                     {
-                        self.GameviewcontrollerBridge.RemoveAdsBtn.hidden = true
-                        self.GameviewcontrollerBridge.RestoreiAP.hidden = true
+                        //self.GameviewcontrollerBridge.RemoveAdsBtn.hidden = true
+                        //self.GameviewcontrollerBridge.RestoreiAP.hidden = true
                         
                     }
                     
@@ -1561,20 +1561,20 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     
                     if Model.sharedInstance.sound == true
                     {
-                        self.GameviewcontrollerBridge.soundOnBtn.hidden = false // ses kapalı
-                        self.GameviewcontrollerBridge.soundOffBtn.hidden = true
+                        //self.GameviewcontrollerBridge.soundOnBtn.hidden = false // ses kapalı
+                        //self.GameviewcontrollerBridge.soundOffBtn.hidden = true
                         
                     }else
                         
                     {
-                        self.GameviewcontrollerBridge.soundOffBtn.hidden = false
-                        self.GameviewcontrollerBridge.soundOnBtn.hidden = true
+                        //self.GameviewcontrollerBridge.soundOffBtn.hidden = false
+                        //self.GameviewcontrollerBridge.soundOnBtn.hidden = true
                         
                     }
                     
                     self.GameviewcontrollerBridge.refreshGameBtn.hidden = false
                     self.GameviewcontrollerBridge.returnmainmenubutton.hidden = false
-                    self.GameviewcontrollerBridge.pauseButton.hidden = false
+                    self.GameviewcontrollerBridge.pauseButton.hidden = true
                     self.GameviewcontrollerBridge.resumeButton.hidden = true
                     self.stageLabel.hidden = true
                   
@@ -1585,7 +1585,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     }
                     self.highscoreLabel.hidden = false
                     self.highscoreLabel2.hidden = false
-                    self.GameviewcontrollerBridge.ShareButton.hidden = true
+                    //self.GameviewcontrollerBridge.ShareButton.hidden = true
                     self.highscoreLabel.text = "\(Model.sharedInstance.highcore)"
                     
                     

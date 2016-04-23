@@ -119,15 +119,16 @@
 		6BF60C021ABB4F3D00A0402D /* BGPoint2500.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60BFC1ABB4F3D00A0402D /* BGPoint2500.png */; };
 		6BF60C031ABB4F3D00A0402D /* BGPoint3500.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60BFD1ABB4F3D00A0402D /* BGPoint3500.png */; };
 		6BF60C041ABB4F3D00A0402D /* BGPoint5500.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60BFE1ABB4F3D00A0402D /* BGPoint5500.png */; };
-		6BF60C051ABB4F3D00A0402D /* BGPointLock 1500.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60BFF1ABB4F3D00A0402D /* BGPointLock 1500.png */; };
-		6BF60C061ABB4F3D00A0402D /* BGPointLock 500.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60C001ABB4F3D00A0402D /* BGPointLock 500.png */; };
 		6BF60C071ABB4F3D00A0402D /* BGPointLock4500.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60C011ABB4F3D00A0402D /* BGPointLock4500.png */; };
 		6BF60C101ABB4F4200A0402D /* UnlockBG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60C091ABB4F4200A0402D /* UnlockBG1.png */; };
-		6BF60C111ABB4F4200A0402D /* UnlockBG2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60C0A1ABB4F4200A0402D /* UnlockBG2.png */; };
 		6BF60C121ABB4F4200A0402D /* UnlockBG3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60C0B1ABB4F4200A0402D /* UnlockBG3.png */; };
-		6BF60C141ABB4F4200A0402D /* UnlockBG6.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60C0D1ABB4F4200A0402D /* UnlockBG6.png */; };
 		6BF60C151ABB4F4200A0402D /* UnlockBG7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60C0E1ABB4F4200A0402D /* UnlockBG7.png */; };
 		6BF60C161ABB4F4200A0402D /* UnlockBG8.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF60C0F1ABB4F4200A0402D /* UnlockBG8.png */; };
+		80A3B09A1CC98CC4009E445B /* mainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A3B0991CC98CC4009E445B /* mainMenu.png */; };
+		80A3B09E1CC999BB009E445B /* unlockBG6.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A3B09D1CC999BB009E445B /* unlockBG6.png */; };
+		80A3B0A01CC999E9009E445B /* UnlockBG2.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A3B09F1CC999E9009E445B /* UnlockBG2.png */; };
+		80A3B0A21CC99BB4009E445B /* BGPointLock 500.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A3B0A11CC99BB4009E445B /* BGPointLock 500.png */; };
+		80A3B0A41CC99C3F009E445B /* BGPointLock 1500.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A3B0A31CC99C3F009E445B /* BGPointLock 1500.png */; };
 		AB20717E1CBB55590069255A /* HardBtnDikdortgen.png in Resources */ = {isa = PBXBuildFile; fileRef = AB20717B1CBB55590069255A /* HardBtnDikdortgen.png */; };
 		AB20717F1CBB55590069255A /* EasyBtnDikdortgen.png in Resources */ = {isa = PBXBuildFile; fileRef = AB20717C1CBB55590069255A /* EasyBtnDikdortgen.png */; };
 		AB2071801CBB55590069255A /* mediumBtnDikdortgen.png in Resources */ = {isa = PBXBuildFile; fileRef = AB20717D1CBB55590069255A /* mediumBtnDikdortgen.png */; };
@@ -249,15 +250,16 @@
 		6BF60BFC1ABB4F3D00A0402D /* BGPoint2500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGPoint2500.png; sourceTree = "<group>"; };
 		6BF60BFD1ABB4F3D00A0402D /* BGPoint3500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGPoint3500.png; sourceTree = "<group>"; };
 		6BF60BFE1ABB4F3D00A0402D /* BGPoint5500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGPoint5500.png; sourceTree = "<group>"; };
-		6BF60BFF1ABB4F3D00A0402D /* BGPointLock 1500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BGPointLock 1500.png"; sourceTree = "<group>"; };
-		6BF60C001ABB4F3D00A0402D /* BGPointLock 500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BGPointLock 500.png"; sourceTree = "<group>"; };
 		6BF60C011ABB4F3D00A0402D /* BGPointLock4500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGPointLock4500.png; sourceTree = "<group>"; };
 		6BF60C091ABB4F4200A0402D /* UnlockBG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnlockBG1.png; sourceTree = "<group>"; };
-		6BF60C0A1ABB4F4200A0402D /* UnlockBG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnlockBG2.png; sourceTree = "<group>"; };
 		6BF60C0B1ABB4F4200A0402D /* UnlockBG3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnlockBG3.png; sourceTree = "<group>"; };
-		6BF60C0D1ABB4F4200A0402D /* UnlockBG6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnlockBG6.png; sourceTree = "<group>"; };
 		6BF60C0E1ABB4F4200A0402D /* UnlockBG7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnlockBG7.png; sourceTree = "<group>"; };
 		6BF60C0F1ABB4F4200A0402D /* UnlockBG8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnlockBG8.png; sourceTree = "<group>"; };
+		80A3B0991CC98CC4009E445B /* mainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainMenu.png; sourceTree = "<group>"; };
+		80A3B09D1CC999BB009E445B /* unlockBG6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlockBG6.png; sourceTree = "<group>"; };
+		80A3B09F1CC999E9009E445B /* UnlockBG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnlockBG2.png; sourceTree = "<group>"; };
+		80A3B0A11CC99BB4009E445B /* BGPointLock 500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BGPointLock 500.png"; sourceTree = "<group>"; };
+		80A3B0A31CC99C3F009E445B /* BGPointLock 1500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BGPointLock 1500.png"; sourceTree = "<group>"; };
 		AB20717B1CBB55590069255A /* HardBtnDikdortgen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HardBtnDikdortgen.png; sourceTree = "<group>"; };
 		AB20717C1CBB55590069255A /* EasyBtnDikdortgen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyBtnDikdortgen.png; sourceTree = "<group>"; };
 		AB20717D1CBB55590069255A /* mediumBtnDikdortgen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mediumBtnDikdortgen.png; sourceTree = "<group>"; };
@@ -443,6 +445,7 @@
 				6B7DC4F91AB7FFE2007E9EC7 /* moreGamesButton.png */,
 				0DC86F1F1CBB8EED0034D5F2 /* pauseButton.png */,
 				6B7DC4F71AB7F962007E9EC7 /* randomButton.png */,
+				80A3B0991CC98CC4009E445B /* mainMenu.png */,
 				6B7DC4F51AB7F7AF007E9EC7 /* PlayButtonGreen.png */,
 				6B10A76C1AB35493002F73C2 /* seskapat.png */,
 			);
@@ -559,9 +562,9 @@
 			children = (
 				6BF60BFC1ABB4F3D00A0402D /* BGPoint2500.png */,
 				6BF60BFD1ABB4F3D00A0402D /* BGPoint3500.png */,
+				80A3B0A11CC99BB4009E445B /* BGPointLock 500.png */,
 				6BF60BFE1ABB4F3D00A0402D /* BGPoint5500.png */,
-				6BF60BFF1ABB4F3D00A0402D /* BGPointLock 1500.png */,
-				6BF60C001ABB4F3D00A0402D /* BGPointLock 500.png */,
+				80A3B0A31CC99C3F009E445B /* BGPointLock 1500.png */,
 				6BF60C011ABB4F3D00A0402D /* BGPointLock4500.png */,
 			);
 			name = LockBgTextures;
@@ -572,11 +575,11 @@
 			isa = PBXGroup;
 			children = (
 				6BF60C091ABB4F4200A0402D /* UnlockBG1.png */,
-				6BF60C0A1ABB4F4200A0402D /* UnlockBG2.png */,
 				AB2071811CBB60ED0069255A /* UnlockBg4.png */,
 				6BF60C0B1ABB4F4200A0402D /* UnlockBG3.png */,
-				6BF60C0D1ABB4F4200A0402D /* UnlockBG6.png */,
+				80A3B09F1CC999E9009E445B /* UnlockBG2.png */,
 				6BF60C0E1ABB4F4200A0402D /* UnlockBG7.png */,
+				80A3B09D1CC999BB009E445B /* unlockBG6.png */,
 				6BF60C0F1ABB4F4200A0402D /* UnlockBG8.png */,
 			);
 			name = UnlockBgTextures;
@@ -661,8 +664,11 @@
 				6B7DC4F81AB7F962007E9EC7 /* randomButton.png in Resources */,
 				6BF60C031ABB4F3D00A0402D /* BGPoint3500.png in Resources */,
 				05D7DE651A98237B00C9A051 /* PickCoin.mp3 in Resources */,
+				80A3B0A21CC99BB4009E445B /* BGPointLock 500.png in Resources */,
+				80A3B0A01CC999E9009E445B /* UnlockBG2.png in Resources */,
 				AB20717E1CBB55590069255A /* HardBtnDikdortgen.png in Resources */,
 				6B7DC51E1AB809B1007E9EC7 /* Icon-76@3x.png in Resources */,
+				80A3B09A1CC98CC4009E445B /* mainMenu.png in Resources */,
 				05B6446E1C11425500F4DCD2 /* shareIcon.png in Resources */,
 				6B7DC5171AB809B1007E9EC7 /* Icon-60.png in Resources */,
 				AB20717F1CBB55590069255A /* EasyBtnDikdortgen.png in Resources */,
@@ -679,7 +685,6 @@
 				6B7DC5201AB809B1007E9EC7 /* Icon-Small-50@2x.png in Resources */,
 				6B2C263A1AC5E6BD00262F09 /* electricCreate1.wav in Resources */,
 				6B7DC5221AB809B1007E9EC7 /* Icon-Small@2x.png in Resources */,
-				6BF60C061ABB4F3D00A0402D /* BGPointLock 500.png in Resources */,
 				6BF60C101ABB4F4200A0402D /* UnlockBG1.png in Resources */,
 				AB2071801CBB55590069255A /* mediumBtnDikdortgen.png in Resources */,
 				6B2C26411AC5E6BD00262F09 /* shieldOn1.mp3 in Resources */,
@@ -687,6 +692,7 @@
 				AB2071821CBB60ED0069255A /* UnlockBg4.png in Resources */,
 				0DC86F221CBB8F210034D5F2 /* reloadButton1.png in Resources */,
 				6B7DC5291AB809B1007E9EC7 /* iTunesArtwork in Resources */,
+				80A3B09E1CC999BB009E445B /* unlockBG6.png in Resources */,
 				6B7DC5231AB809B1007E9EC7 /* Icon-Small@3x.png in Resources */,
 				6B7DC5001AB80629007E9EC7 /* infoButton.png in Resources */,
 				6B7DC4FA1AB7FFE2007E9EC7 /* moreGamesButton.png in Resources */,
@@ -720,8 +726,6 @@
 				055DC7241A85007D0049CE4F /* Images.xcassets in Resources */,
 				6BF60C121ABB4F4200A0402D /* UnlockBG3.png in Resources */,
 				6B7DC51A1AB809B1007E9EC7 /* Icon-72.png in Resources */,
-				6BF60C051ABB4F3D00A0402D /* BGPointLock 1500.png in Resources */,
-				6BF60C141ABB4F4200A0402D /* UnlockBG6.png in Resources */,
 				6B2D2B9D1AC37A9E00B2DFDE /* gameCenterButton.png in Resources */,
 				6B2D2B971AC36AD000B2DFDE /* playButton1.png in Resources */,
 				6B7DC51F1AB809B1007E9EC7 /* Icon-Small-50.png in Resources */,
@@ -734,10 +738,10 @@
 				0DC86F1C1CBB8E2D0034D5F2 /* maviBGBlur.png in Resources */,
 				6BF60C161ABB4F4200A0402D /* UnlockBG8.png in Resources */,
 				055DC71B1A85007D0049CE4F /* GameScene.sks in Resources */,
+				80A3B0A41CC99C3F009E445B /* BGPointLock 1500.png in Resources */,
 				6BE568FD1AE3E46500D1901A /* RateIT.png in Resources */,
 				05B6E2691C19EC9B00E42C12 /* RestorePurchase.png in Resources */,
 				055DC7221A85007D0049CE4F /* Main.storyboard in Resources */,
-				6BF60C111ABB4F4200A0402D /* UnlockBG2.png in Resources */,
 				6B7DC5241AB809B1007E9EC7 /* Icon-Spotlight-40.png in Resources */,
 				6B7DC51B1AB809B1007E9EC7 /* Icon-72@2x.png in Resources */,
 				0DC9843A1CBB94F000BC6444 /* backgroundmusic1.mp3 in Resources */,

@@ -91,7 +91,7 @@ class GameViewController: UIViewController,SKProductsRequestDelegate,SKPaymentTr
         
 
             refreshGameBtn.hidden = true
-            RestoreiAP.hidden = true
+            //RestoreiAP.hidden = true
     
             let skView = self.view as! SKView
             
@@ -136,12 +136,12 @@ class GameViewController: UIViewController,SKProductsRequestDelegate,SKPaymentTr
     @IBAction func RefreshGameFunc(sender: UIButton) {
         
         //RELOAD GAME
-        RemoveAdsBtn.hidden = true
+        //RemoveAdsBtn.hidden = true
         scene.GameviewcontrollerBridge = self
         scene.reloadgame()
         refreshGameBtn.hidden = true
-        soundOffBtn.hidden = true
-        RestoreiAP.hidden = true
+        //soundOffBtn.hidden = true
+        //RestoreiAP.hidden = true
         Model.sharedInstance.ShieldAddBool = false
 
         
